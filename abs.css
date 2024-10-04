@@ -1,0 +1,60 @@
+body{
+    background-color: burlywood;
+    min-height: 4000px;
+    
+}
+header{
+    background-color: green;
+    color: goldenrod;
+    margin: 3px;
+    text-align: center;
+    border: 2px outset goldenrod;
+    font-size: 3em;
+    
+
+}
+article{
+    background-color: beige;
+    border: 5px outset goldenrod;
+    margin-left: 100px;
+    margin-right: 100px;
+    min-height: 300px;
+}
+nav{
+    background-color: beige;
+    border: 5px outset goldenrod;
+    margin: 3px;
+    float: left;
+    min-width: 200px;
+
+}
+img{
+    width: 300px;
+
+}
+
+h2{
+    text-align: center;
+}
+nav a{ 
+    display: block;
+    margin: 10px;
+}
+nav a:hover{
+    background-color: magenta;
+    color: black;
+}
+nav a:hover img{
+    opacity: 1;
+    transition: 3s;
+}
+nav img{
+    opacity: 0;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 200px;
+    left: 300px;
+    margin: 5px;
+    pointer-events: none;
+}

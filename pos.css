@@ -1,0 +1,57 @@
+body{
+    background-color: burlywood;
+    height:4000px;
+}
+header{
+    border: 10px outset goldenrod;
+    background-color: blue;
+    color: goldenrod;
+    font-size: 6em;
+    text-align: center;
+}
+h1{
+    border: 3px outset goldenrod;
+    background-color: blue;
+    color: goldenrod;
+    text-align: center;
+}
+article{
+    border: 3px outset goldenrod;
+    background-color: beige;
+    color: black;
+ 
+}
+div{
+    background-color: red;
+    height: 200px;
+
+}
+.aqua{
+    background-color: aqua;
+    height:100px;
+    width: 100px;
+}
+.gold{
+    background-color: goldenrod;
+    height:600px;
+    width:600px
+}
+.black{
+    background-color: black;
+    height:200px;
+    width:200px;
+    top: 100px;
+    left: 40px;
+    position: sticky;
+}
+.big{
+    background-color: black;
+    height:400px;
+    width:400px;
+    position: relative;
+}
+img{
+    width: 200px;
+
+    
+}

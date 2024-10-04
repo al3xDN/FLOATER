@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+header{
+    border: 10px outset red;
+    background-color: black;
+    color: red;
+    font-size: 12em;
+    text-align: center;
+    position:sticky;
+    top: 0px;
+}
+h1{
+    border: 3px outset red;
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+article{
+    border: 3px outset red;
+    background-color: black;
+    color: red;
+    margin-left: 220px;
+}
+nav{
+    float: left;
+    width: 200px;
+    border: 5px outset red;
+    min-height: 350px;
+    background-color: black;
+    color: red;
+    margin: 5px;
+    position: sticky;
+    top:245px;
+}
+nav a{
+    color: red;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+nav a:hover{
+    background-color: white;
+    color:magenta
+}
+footer{
+    background-color: aqua;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    position: sticky;
+    bottom: 5px;
+}
+img{
+    float: left;
+    margin: 5px;
+    size: 100px;
+}
