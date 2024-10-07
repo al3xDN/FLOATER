@@ -1,0 +1,55 @@
+body{
+    background-color: saddlebrown ;
+    min-height: 3000px;
+}
+header{
+    border: 5px outset gold;
+    background-color: green;
+    color: gold;
+    font-size: 3em;
+    text-align: center;
+    margin: 5px;
+}
+h1{
+    margin: 3px;
+    background-color: green;
+    color: gold;
+    text-align: center;
+}
+article{
+    border: 3px outset gold;
+    background-color: burlywood;
+    color: black;
+    margin-left: 220px;
+    margin: 5px;
+    min-height: 600px;
+}
+nav{
+    float: left;
+    width: 200px;
+    border: 5px outset gold;
+    min-height: 350px;
+    background-color: green;
+    color: gold;
+    margin: 5px;
+    position: sticky;
+    top: 5px;
+ 
+}
+nav a{
+    color: goldenrod;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+nav a:hover{
+    background-color: black;
+    color:green
+}
+
+
+img{
+    margin: 5px;
+    size: 100px;
+}
