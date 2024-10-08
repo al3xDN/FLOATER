@@ -1,0 +1,59 @@
+body{
+    min-height: 3000px;
+    background-color: black;
+}
+header{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    height: 3.2rem;
+   
+}
+article{
+    background-color: orange;
+    color: white;
+    margin-left: 205px;
+    margin: 5px;
+    border: 3px outset white;
+    margin-top: 3.2rem;
+   
+}
+h1{
+    text-align: center;
+}
+nav{
+    border: 3px outset white;
+    background-color: black;
+    color: orange;
+    width: 200px;
+    float: left;
+    top: 3.2rem;
+    position: fixed;
+    bottom: 25px;
+}
+nav a{
+    display: block;
+    color: orange;
+}
+nav a:hover{
+    background-color:orange;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: orange;
+    border: 3px outset white;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 19px;
+    position: fixed;
+}
