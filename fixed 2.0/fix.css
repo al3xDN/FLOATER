@@ -1,0 +1,72 @@
+body{
+    min-height: 3000px;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    height: 50px;
+    border: 2px outset white;
+}
+nav{
+    background-color: black;
+    color: orange;
+    position: fixed;
+    width: 200px;
+    margin: 5px;
+    top: 50px;
+    bottom: 20px;
+    border: 2px outset white;
+}
+nav a{
+    color: orange;
+    display: block;
+}
+nav a:hover{
+    color: white;
+    background-color: orange;
+}
+.leftnav{
+    float: left;
+    left: 0px;
+}
+.rightnav{
+    float: right;
+    right: 0px;
+}
+footer{
+    background-color: black;
+    color: orange;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 20px;
+    text-align: center;
+    border: 2px outset white;
+}
+main{
+    background-color: orange;
+    color: white;
+    margin: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    min-height: 3000px;
+}
+footer:hover{
+    background-color: magenta;
+    color:black;
+    font-weight: bold;
+}
