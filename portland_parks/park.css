@@ -20,34 +20,37 @@ article{
     border: 3px outset gold;
     background-color: burlywood;
     color: black;
-    margin-left: 220px;
     margin: 5px;
     min-height: 600px;
 }
 nav{
-    float: left;
-    width: 200px;
     border: 5px outset gold;
-    min-height: 350px;
     background-color: green;
     color: gold;
     margin: 5px;
+}
+.topnav{
+    float: top;
     position: sticky;
-    top: 5px;
- 
+    text-align: center;
+    min-height: 29px;
 }
 nav a{
     color: goldenrod;
-    display: block;
-    margin-top: 6px;
-    margin-bottom: 6px;
-
 }
 nav a:hover{
     background-color: black;
-    color:green
+    color:green;
 }
+.topnav a{
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border: 2px outset white;
 
+}
 
 img{
     margin: 5px;
