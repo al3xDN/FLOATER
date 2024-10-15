@@ -1,5 +1,5 @@
 body{
-    background-color: saddlebrown ;
+    background-color: black ;
     min-height: 3000px;
 }
 header{
@@ -25,9 +25,11 @@ article{
 }
 nav{
     border: 5px outset gold;
-    background-color: rgba(0 255 0 .5);
     color: gold;
     margin: 5px;
+}
+#topmaindiv nav{
+    background-color: rgba(0 255 0 .5)
 }
 .topnav{
     float: top;
@@ -52,11 +54,12 @@ nav a:hover{
 
 }
 #topmaindiv{
-    top:300px;
+    top:0px;
     left:0px;
     right:0px;
     background: url(../img/witchcastle.jpg);
     opacity:0.5;
+    min-height: 300px;
 }
 img{
     margin: 5px;
