@@ -35,6 +35,7 @@ section{
 #demoBox div.four{
     flex: 4;
     background-color: yellow;
+    order: 0;
 }
 #centerPicture{
     background: tan;
