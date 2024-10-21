@@ -1,0 +1,44 @@
+body{
+    min-height: 3000px;
+}
+header{
+    border: 1px outset black;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 20px;
+    padding: 20px;
+    position: sticky;
+    background-color: white;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+nav{
+    background-color: white;
+    float: left;
+    left: 0px;
+    width: 300px;
+    bottom: 0px;
+    margin-right: 15px;
+    border: 1px outset black;
+    position: sticky;
+}
+.maindiv{
+    justify-content: space-evenly;
+    border: 1px outset black;
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+    min-height: 300px;
+    min-width: 300px;
+}
+nav article{
+    border: 1px outset black;
+
+}
+nav a{
+    display: block;
+    padding: 5px;
+}
