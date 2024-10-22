@@ -24,6 +24,18 @@ nav{
     margin-right: 15px;
     border: 1px outset black;
     position: sticky;
+    flex: 1;
+
+}
+div h1{
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 0px;
+    font-weight: normal;
+}
+div h2{
+    padding: 5px;
+    font-size: 1em;
 }
 .maindiv{
     justify-content: space-evenly;
@@ -33,6 +45,28 @@ nav{
     width: 300px;
     min-height: 300px;
     min-width: 300px;
+    max-height: 300px;
+}
+div a{
+    color: white;
+}
+div a:hover{
+    font-weight: bold;
+}
+.topdiv{
+    height: 75px;
+    background-color: green;
+}
+.middlediv{
+    height: 175px;
+    border-top: 1px outset black;
+    border-bottom: 1px outset black;
+}
+.bottomdiv{
+    height: 25px;
+}
+.bottomdiv h1{
+    text-align: right;
 }
 nav article{
     border: 1px outset black;
