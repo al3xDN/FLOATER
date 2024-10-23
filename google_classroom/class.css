@@ -8,12 +8,15 @@ header{
     right: 0px;
     font-size: 20px;
     padding: 20px;
-    position: sticky;
+    position: fixed;
     background-color: white;
+    z-index: 2;
 }
 main{
     display: flex;
     flex-flow: row wrap;
+    margin-top: 65px;
+    margin-left: 300px;
 }
 nav{
     background-color: white;
@@ -23,8 +26,9 @@ nav{
     bottom: 0px;
     margin-right: 15px;
     border: 1px outset black;
-    position: sticky;
+    position: fixed;
     flex: 1;
+    top: 65px;
 
 }
 div h1{
@@ -32,10 +36,19 @@ div h1{
     font-size: 1.5em;
     margin: 0px;
     font-weight: normal;
+    padding-left: 10px;
 }
 div h2{
     padding: 5px;
     font-size: 1em;
+    padding-left: 10px;
+    color: white;
+}
+div h2:hover{
+    text-decoration: underline;
+}
+div p{
+    padding-left: 10px;
 }
 .maindiv{
     justify-content: space-evenly;
@@ -46,21 +59,31 @@ div h2{
     min-height: 300px;
     min-width: 300px;
     max-height: 300px;
+    border-radius: 10px;
+    position: relative
 }
 div a{
     color: white;
+    text-decoration: none;
 }
 div a:hover{
-    font-weight: bold;
+    text-decoration: underline;
 }
 .topdiv{
     height: 75px;
     background-color: green;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 .middlediv{
     height: 175px;
     border-top: 1px outset black;
     border-bottom: 1px outset black;
+}
+div h3{
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 .bottomdiv{
     height: 25px;
@@ -68,11 +91,29 @@ div a:hover{
 .bottomdiv h1{
     text-align: right;
 }
+.middlenavarticle{
+    border-top: 1px outset black;
+    border-bottom: 1px outset black;
+}
 nav article{
-    border: 1px outset black;
-
+    padding: 5px;
 }
 nav a{
     display: block;
     padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
+#HomeAnav{
+    background-color: lightblue;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: lightgray;
+    border-radius: 30px;
+}
+nav #HomeAnav:hover{
+    background-color: lightgray;
+    border-radius: 30px;
 }
