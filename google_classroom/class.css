@@ -1,5 +1,7 @@
 body{
     min-height: 3000px;
+
+  
 }
 header{
     border: 1px outset black;
@@ -62,6 +64,19 @@ div p{
     border-radius: 10px;
     position: relative
 }
+#profilepic{
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+   
+    border: 1px outset black;
+    z-index: 5;
+    background-size: contain;
+    background-image: url("../img/happyemoji2.png");
+}
 div a{
     color: white;
     text-decoration: none;
@@ -80,6 +95,9 @@ div a:hover{
     border-top: 1px outset black;
     border-bottom: 1px outset black;
 }
+.middlediv p:hover{
+    text-decoration: underline;
+}
 div h3{
     position: absolute;
     top: 5px;
@@ -90,6 +108,14 @@ div h3{
 }
 .bottomdiv h1{
     text-align: right;
+    display: inline;
+    float: right;
+    margin-right: 5px;
+}
+.bottomdiv h1:hover{
+    background-color: lightgray;
+    border-radius: 25px;
+
 }
 .middlenavarticle{
     border-top: 1px outset black;
@@ -116,4 +142,8 @@ nav a:hover{
 nav #HomeAnav:hover{
     background-color: lightgray;
     border-radius: 30px;
+}
+nav article p{
+    display: inline;
+    margin: 5px;
 }
