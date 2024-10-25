@@ -1,15 +1,11 @@
-body{
-    min-height: 3000px;
 
-  
-}
 header{
     border: 1px outset black;
     top: 0px;
     left: 0px;
     right: 0px;
     font-size: 20px;
-    padding: 20px;
+    padding: 18px;
     position: fixed;
     background-color: white;
     z-index: 2;
@@ -64,16 +60,14 @@ div p{
     border-radius: 10px;
     position: relative
 }
-#profilepic{
+.profilepic{
     height: 75px;
     width: 75px;
     border-radius: 50px;
     position: absolute;
     top: 40px;
     right: 35px;
-   
     border: 1px outset black;
-    z-index: 5;
     background-size: contain;
     background-image: url("../img/happyemoji2.png");
 }
@@ -86,7 +80,8 @@ div a:hover{
 }
 .topdiv{
     height: 75px;
-    background-color: green;
+    background-size: cover;
+    background-image: url(../img/walterwhite.jpg);
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
 }
@@ -97,6 +92,14 @@ div a:hover{
 }
 .middlediv p:hover{
     text-decoration: underline;
+}
+.middlediv h1{
+    font-size: 0.95em;
+    color: gray;
+    margin-top: 5px;
+}
+.middlediv p{
+    margin-top: 0px;
 }
 div h3{
     position: absolute;
