@@ -1,0 +1,35 @@
+header{
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+nav{
+    background-color: black;
+    color: orange;
+    position: fixed;
+    width: 200px;
+    top: 22px;
+    bottom: 0px;
+    left: 0px;
+}
+body{
+    min-height: 3000px;
+}
+main{
+    margin-left: 200px;
+    margin-top: 25px;
+    display: grid;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.griddiv{
+    border: 1px outset black;
+    height: 400px;
+    width: 400px;
+}
