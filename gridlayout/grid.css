@@ -1,35 +1,61 @@
+body{
+    display:grid;
+    grid-template-areas:
+    'header header header header'
+    'nav main main main'
+    'nav main main main'
+    'nav main main main'
+    'nav main main main'
+    'footer footer footer footer';
+    gap: 10px;
+    padding: 5px;
+    background-color: lightgray;
+}
 header{
     font-size: 20px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
     font-weight: bold;
     text-align: center;
     background-color: black;
     color: orange;
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+nav a{
+    color: orange;
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+    display: block;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 5px;
 }
 nav{
     background-color: black;
     color: orange;
-    position: fixed;
-    width: 200px;
-    top: 22px;
-    bottom: 0px;
-    left: 0px;
+    grid-area: nav;
 }
-body{
-    min-height: 3000px;
+nav h1{
+    text-align: center;
+    font-size: 1.2em;
+    color: orange;
 }
 main{
-    margin-left: 200px;
-    margin-top: 25px;
-    display: grid;
-    gap: 50px;
-    justify-content: space-evenly;
+    grid-area: main;
+    background-color: orange;
 }
-.griddiv{
-    border: 1px outset black;
-    height: 400px;
-    width: 400px;
+main h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+main img{
+    float: left;
+    margin: 5px;
 }
