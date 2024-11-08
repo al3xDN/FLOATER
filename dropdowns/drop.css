@@ -8,19 +8,20 @@ header{
     background-color: black;
     color: orange;
 }
-nav{
-    text-align: center;
-    margin-top: 10px;
-    background-color: orange;
-    color: white;
-    padding: 0.2px;
-}
 a{
     color: orange;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
+}
+/*DROPDOWNS*/
+.dropdowns{
+    text-align: center;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    padding: 0.2px;
 }
 nav > ul > li{
     display: inline-block;
@@ -44,10 +45,18 @@ nav > ul > li > ul{
     transition: 0.5s;
     margin-top: 5px;
     left: 0px;
+    pointer-events: none;
+    top: 10px;
+}
+nav > ul > li:hover{
+    background-color: white;
 }
 nav > ul > li:hover ul{
     opacity: 1;
+    pointer-events: all;
+    top: 24px;
 }
 nav li{
     background-color: black;
 }
+/*END DROPDOWNS*/
