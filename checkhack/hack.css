@@ -1,0 +1,39 @@
+nav a{
+    color: green;
+}
+nav > a{
+    color: blue;
+}
+nav + a{
+    color: red;
+}
+nav + a + a{
+    color: red;
+}
+nav{
+    text-align: center;
+    background-color: beige;
+}
+div{
+    text-align: center;
+    background-color: lightgray;
+    margin: 5px;
+}
+img{
+    float: left;
+}
+main{
+    margin: 10px;
+    border: 1px outset black;
+    padding: 5px;
+}
+.check + img{
+    border: 2px solid black;
+}
+.check:checked + img{
+    border: 50px solid magenta;
+}
+.check{
+    position: fixed;
+    left: -1000px;
+}
