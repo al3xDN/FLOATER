@@ -1,0 +1,58 @@
+header{
+    height: 25px;
+    font-size: 20px;
+    padding: 2.5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+}
+h1{
+    text-align: center;
+}
+nav{
+    height: 25px;
+    font-size: 20px;
+    padding: 2.5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+}
+main{
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 50px;
+    min-height: 500px;
+}
+.check{
+    position: fixed;
+    left: -1000px;
+}
+label:hover{
+    background-color: orange;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+.check:checked + .alert{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.check:checked + .alert > .message{
+    opacity: 1;
+    pointer-events: all;
+}
+.message{
+    position: absolute;
+    align-content: center;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+}
