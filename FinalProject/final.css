@@ -1,5 +1,4 @@
 body{
-    min-height: 3000px;
     background-color: black;
     color: white;
 }
@@ -10,16 +9,44 @@ main{
     background: orange;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 15px;
+
+}
+img{
+    border: 5px solid white;
+}
+main h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 5px solid white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+main h1{
+    background-color: black;
+    color: orange;
+    font-size: 1.5em;
 }
 main p{
     font-size: 20px;
     font-family: sans-serif;
+    border: 5px solid white;
+    padding: 5px;
 
 }
+main img{
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 400px;
+    max-height: 700px;
+}
 .profileimage{
-    background-image:();
     margin-top: 35px;
     height: 400px;
+    background-size: cover;
+    background-image:url(../img/witchcastle.jpg);
 }
 footer{
     display: flex;
@@ -29,14 +56,19 @@ footer{
     background: orange;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 footer p{
     font-size: 15px;
     padding: 5px;
+    display: block;
+    float: bottom;
 }
 footer img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    float: top;
+    margin: 25px;
 }
 header{
     text-align: center;
